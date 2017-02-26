@@ -9,6 +9,7 @@ function loadRecipients()
 	*/
 	
 	var newRecPlural = recPlural.replace(" ", "_");
+    console.log("hello");
 	
 	var toRet = [];
 	$.ajax({
